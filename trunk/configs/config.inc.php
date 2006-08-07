@@ -13,9 +13,9 @@
 // Pear::DB variables
 $config['db_type'] = 'mysql';
 $config['db_host'] = 'localhost';
-$config['db_user'] = 'v155034';
-$config['db_pass'] = 'sk0k9jmv';
-$config['db_name'] = 'v155034';
+$config['db_user'] = 'mediabase';
+$config['db_pass'] = 'media_base';
+$config['db_name'] = 'mediabase';
 
 
 // default user Variablen
@@ -28,8 +28,8 @@ $config['defaultthumbnail']= 1;
 define('MEDIABASE_DIR', '/www/htdocs/v155034/mediabase2/');
 define('SMARTY_DIR', '/www/htdocs/v155034/Smarty/');
 define('SMARTY_TEMPLATE_DIR', MEDIABASE_DIR.'templates');
-define('SMARTY_COMPILE_DIR', MEDIABASE_DIR.'smarty/templates_c');
-define('SMARTY_CACHE_DIR', MEDIABASE_DIR.'smarty/cache');
+define('SMARTY_COMPILE_DIR', MEDIABASE_DIR.'_smarty/templates_c');
+define('SMARTY_CACHE_DIR', MEDIABASE_DIR.'_smarty/cache');
 define('SMARTY_CONFIG_DIR', MEDIABASE_DIR.'configs');
 
 ?>
